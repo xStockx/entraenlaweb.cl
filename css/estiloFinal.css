@@ -1,1 +1,24 @@
-header{background:#fff;font-size:20px;height:80px;position:fixed;width:100%;text-align:center;}header ul{margin:0;list-style:none;}header ul li{display:inline-block;margin-left:2em;padding:1em;}header ul li a{text-decoration:none}header ul li a:hover{cursor:pointer;text-decoration:none}header ul li:hover{transition:.5s;border-bottom:2px solid #64f0ff}#inicio{text-align:center;padding:10%;background-image:url("../img/fondoInicio2.jpg");background-repeat:no-repeat;background-size:1400px 700px;background-position:center;background-color:#ddd;height:680px;}#inicio h3{padding:3em;background:rgba(240,240,240,0.7);border-radius:.5em}#planes{background:#000;height:680px}#contacto{background:#008000;height:680px}footer{background:#000;color:#333;text-align:center;}footer p{margin:0}
+body{font-family:'Open Sans'}
+header{background:#fff;font-size:20px;height:80px;position:fixed;width:100%;text-align:center;}
+header ul{margin:0;list-style:none;}
+header ul li{display:inline-block;margin-left:2em;padding:1em;}
+header ul li a{text-decoration:none;color:#666}
+header ul li a:hover{cursor:pointer;text-decoration:none}
+header ul li:hover{transition:.5s;border-bottom:2px solid #64f0ff}
+article{padding:100px;font-family:'Josefin Sans'}
+#inicio{color:#fff;background:#ff381a;height:680px;text-align:center;}
+#inicio img{margin-top:3em;margin-left:5em}
+#inicio small{color:#fff}
+#inicio input{padding:2px;color:#666;font-size:24px;border:0}
+#inicio button{font-size:25px;background:#fa0;border:0}
+#inicio #formulario{margin-top:2em}
+#planes{background:#dfdfdf;height:680px}
+#entraenlaque{height:680px;}
+#entraenlaque p{font-size:18px}
+#entraenlaque div{float:right;display:inline-block;font-size:64px;margin:40px 20px 0 0}
+#gano{background:#28b4e8;height:680px}
+#hablemos{background:#2cff8a;height:680px}
+#flechaAbajo{margin-top:3em;font-size:64px}
+#flechaAbajo:hover{color:#fa0;cursor:pointer;margin-top:3em;font-size:64px}
+footer{background:#000;color:#333;text-align:center;}
+footer p{margin:0}
