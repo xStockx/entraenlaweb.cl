@@ -28,8 +28,11 @@
 		<article id="inicio">
 			
 			<h1>Dejanos tu correo , te contactamos !</h1>
-			<div id="formulario"><input type="text" placeholder="Tu nombre"> <input type="text" placeholder="correo@dominio.com"> <button >Enviar</button></div>
+			<div id="formulario"><input type="text" placeholder="Tu nombre" name="nombreUsuario" id="nombreUsuario">
+			 <input type="text" placeholder="correo@dominio.com" name="correoUsuario" id="correoUsuario" >  
+			<button value="0" id="btnEnviar" onclick="enviarCorreoAdmin()">Enviar</button></div>
 			<h1>Gracias a nosotros se hará super fácil tu proceso de entrar en la web.</h1>
+			<div id="respuesta"></div>
 			<div class="icon-office" id="flechaAbajo"></div>
 		</article>
 		<article id="entraenlaque">
@@ -101,6 +104,7 @@
 	<script src="js/jQuery.js"></script>
 	<script src="js/scroll.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/enviarCorreoAdmin.js"></script>
 	<script>
 	$(document).ready(function(){
 		
