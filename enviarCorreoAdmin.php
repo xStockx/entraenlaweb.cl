@@ -50,7 +50,7 @@
 		}
 		else
 		{
-			$a = array('Mensaje'=>'Nuestro servidor de correo tiene problemas prueba en 5 minutos - Por favor','codigo'=>0);
+			$a = array('Mensaje'=>'Nuestro servidor de correo tiene problemas prueba en 5 minutos - Por favor','codigo'=>1);
 			echo json_encode($a);	
 		}
 		
